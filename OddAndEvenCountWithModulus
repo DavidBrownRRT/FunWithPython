@@ -1,0 +1,20 @@
+#Author David A Brown
+#Create one list of random numbers totalling
+#300 numbers ranging from 1-300
+#Evaluate this list and count the number of odd and even numbers
+import random
+
+numOdd = []
+numEven = []
+mainList =[]
+
+for i in range(300):
+    mainList.append(random.randint(1,300))
+
+for i in mainList[0:299]:
+    if (i%2):
+        numOdd.append(i)
+    else:
+        numEven.append(i)
+
+print('The mainList contains',len(numOdd), 'odd numbers \nand',len(numEven),'even numbers.')
