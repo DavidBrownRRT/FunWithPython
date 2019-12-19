@@ -1,0 +1,10 @@
+#Author David A Brown
+#Create list of 10 odd random integers
+import random
+numOdd = []
+
+while len(numOdd) < 10:
+    rand = random.randint(1,300)
+    if rand%2 == True: #Evaluates to "1", therefore True
+        numOdd.append(rand)
+        print(numOdd)
