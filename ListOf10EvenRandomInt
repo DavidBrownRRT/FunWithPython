@@ -1,0 +1,10 @@
+#Author:David A Brown
+#Create a list of 10 even random integers
+import random
+numEven = []
+
+while len(numEven) < 10:
+    rand = random.randint(1,300)
+    if rand%2 == False: #Evaluates to "0", therefore false
+        numEven.append(rand)
+        print(numEven)
