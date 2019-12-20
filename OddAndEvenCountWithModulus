@@ -11,7 +11,7 @@ mainList =[]
 for i in range(300):
     mainList.append(random.randint(1,300))
 
-for i in mainList[0:299]:
+for i in mainList[0:300]:
     if (i%2):
         numOdd.append(i)
     else:
