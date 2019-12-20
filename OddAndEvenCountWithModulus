@@ -17,4 +17,4 @@ for i in mainList[0:300]:
     else:
         numEven.append(i)
 
-print('The mainList contains',len(numOdd), 'odd numbers \nand',len(numEven),'even numbers.')
+print('The mainList contains',len(mainList), 'numbers.', '\n', len(numEven),'even numbers and', len(numOdd), 'odd numbers'.
